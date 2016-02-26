@@ -81,9 +81,12 @@
   "browserify": {
     "transform": [
       [
-        "reactify",
+        "babelify",
         {
-          "es6": true
+          "presets": [
+            "es2015",
+            "react"
+          ]
         }
       ]
     ]
