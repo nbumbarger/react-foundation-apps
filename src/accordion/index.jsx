@@ -52,4 +52,4 @@ var Accordion = React.createClass({
 });
 
 module.exports = Accordion;
-Accordion.Item = require('./item');
+Accordion.Item = require('./item.jsx');

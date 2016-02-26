@@ -28,4 +28,4 @@ var Tabs = React.createClass({
 });
 
 module.exports = Tabs;
-Tabs.Tab = require('./tab');
+Tabs.Tab = require('./tab.jsx');

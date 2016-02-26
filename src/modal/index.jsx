@@ -1,6 +1,6 @@
 var React = require('react');
 var cx = require('classnames');
-var Animation = require('../utils/animation');
+var Animation = require('../utils/animation.jsx');
 var foundationApi = require('../utils/foundation-api');
 
 var Modal = React.createClass({

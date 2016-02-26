@@ -59,5 +59,5 @@ var ActionSheet = React.createClass({
 });
 
 module.exports = ActionSheet;
-ActionSheet.Button = require('./button');
-ActionSheet.Content = require('./content');
+ActionSheet.Button = require('./button.jsx');
+ActionSheet.Content = require('./content.jsx');

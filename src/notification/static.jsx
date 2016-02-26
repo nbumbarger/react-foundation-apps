@@ -1,8 +1,8 @@
 var React = require('react');
 var cx = require('classnames');
 var foundationApi = require('../utils/foundation-api');
-var Animation = require('../utils/animation');
-var Notification = require('./notification');
+var Animation = require('../utils/animation.jsx');
+var Notification = require('./notification.jsx');
 
 var NotificationStatic = React.createClass({
   getInitialState: function () {

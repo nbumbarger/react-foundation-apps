@@ -1,4 +1,4 @@
 module.exports = {
-  Set: require('./set'),
-  Static: require('./static')
+  Set: require('./set.jsx'),
+  Static: require('./static.jsx')
 };
