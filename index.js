@@ -10,4 +10,5 @@ module.exports = {
   Popup: require('./src/popup/index.jsx'),
   Tabs: require('./src/tabs/index.jsx'),
   Trigger: require('./src/trigger/index.jsx'),
+  FoundationApi: require('./src/utils/foundation-api')
 };
